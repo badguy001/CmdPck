@@ -1,0 +1,31 @@
+﻿生成启动时间为 2022/3/7 11:40:31。
+     1>项目“C:\Users\deng\Desktop\cmdPck\DemoWin32.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“.\Release\CmdPck.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“.\Release\CmdPck.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DEMOWIN32_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Release\DemoWin32.pch" /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DEMOWIN32_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release\DemoWin32.pch" /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DemoWin32.cpp PlSql_functions.cpp
+         DemoWin32.cpp
+     1>DemoWin32.cpp(141): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : 参见“getenv”的声明
+         PlSql_functions.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\CmdPck.dll" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Release\CmdPck.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\deng\Desktop\cmdPck\Release\CmdPck.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /FIXED:NO /NXCOMPAT:NO /IMPLIB:".\Release\DemoWin32.lib" /MACHINE:X86 /DLL .\Release\DemoWin32.obj
+         .\Release\PlSql_functions.obj
+         .\Release\StdAfx.obj
+            正在创建库 .\Release\DemoWin32.lib 和对象 .\Release\DemoWin32.exp
+         DemoWin32.vcxproj -> C:\Users\deng\Desktop\cmdPck\.\Release\CmdPck.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release\CmdPck.dll;#2" /manifest .\Release\CmdPck.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“.\Release\CmdPck.unsuccessfulbuild”。
+         正在对“.\Release\CmdPck.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\deng\Desktop\cmdPck\DemoWin32.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.81
