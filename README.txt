@@ -18,9 +18,9 @@ plugin cmdpck pck的文件名(不包含文件夹名字)
 例如:
 1).没有配置%USERPROFILE%/cmdpck/config.ini文件，没有此文件或者此文件内容为空的
         plugin cmdpck abc.pck   -->   则插件会以porgram窗口打开C:/pckdir/abc.pck文件，并执行
-		plugin cmdpck 20220308/abc.pck   -->  则插件会以porgram窗口打开C:/pckdir/20220308/abc.pck文件，并执行
+        plugin cmdpck 20220308/abc.pck   -->  则插件会以porgram窗口打开C:/pckdir/20220308/abc.pck文件，并执行
 
 
 1).%USERPROFILE%/cmdpck/config.ini文件内容为D:/pck
         plugin cmdpck abc.pck   -->   则插件会以porgram窗口打开D:/pck/abc.pck文件，并执行
-		plugin cmdpck 20220308/abc.pck   -->  则插件会以porgram窗口打开D:/pck/20220308/abc.pck文件，并执行
+        plugin cmdpck 20220308/abc.pck   -->  则插件会以porgram窗口打开D:/pck/20220308/abc.pck文件，并执行
